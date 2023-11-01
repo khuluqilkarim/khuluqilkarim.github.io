@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+</head>
+<body>
+    <div class="main-container">
+  <div class="header">
+    <h1 class="title">Hi, I’m Khuluqil Karim</h1>
+    <p class="subtitle">Security Researcher And<br />Cyber Security Enthusiast</p>
+    <p class="description">Saya mahasiswa IT Telkom Surabaya, saya memiliki keahlian coding yang cukup dan mampu beradaptasi dengan teknologi baru. Dengan pengalaman dalam mengembangkan aplikasi dan website, saya telah membuktikan kemampuan saya dalam menangani proyek dengan efektif dan efisien. Saya juga terampil dalam menggunakan berbagai platform dan teknologi, serta selalu bersemangat untuk mempelajari yang baru.</p>
+    <div class="cta-container">
+      <div class="cta-button">
+        <a href="#" class="cta-link">LET’S TALK</a>
+      </div>
+      <div class="cta-images">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/98cd72c4-52bf-436b-8035-132551e9b47c?apiKey=9b0c500f6d554ac396215245527c1212&" class="cta-image" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7a5edc4-9667-492d-b11a-35968f0c6555?apiKey=9b0c500f6d554ac396215245527c1212&" class="cta-image" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/46efa329-db88-4bd1-b34c-ad805e21fb37?apiKey=9b0c500f6d554ac396215245527c1212&" class="cta-image" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/454ed47a-5d5f-437c-8e0a-c54e2b952f14?apiKey=9b0c500f6d554ac396215245527c1212&" class="cta-image" />
+      </div>
+    </div>
+  </div>
+  <div class="sidebar">
+    <img loading="lazy" srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/4b39fa23-0175-4feb-aaf8-2009c1f09b5f?apiKey=9b0c500f6d554ac396215245527c1212&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b39fa23-0175-4feb-aaf8-2009c1f09b5f?apiKey=9b0c500f6d554ac396215245527c1212&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b39fa23-0175-4feb-aaf8-2009c1f09b5f?apiKey=9b0c500f6d554ac396215245527c1212&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b39fa23-0175-4feb-aaf8-2009c1f09b5f?apiKey=9b0c500f6d554ac396215245527c1212&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b39fa23-0175-4feb-aaf8-2009c1f09b5f?apiKey=9b0c500f6d554ac396215245527c1212&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b39fa23-0175-4feb-aaf8-2009c1f09b5f?apiKey=9b0c500f6d554ac396215245527c1212&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b39fa23-0175-4feb-aaf8-2009c1f09b5f?apiKey=9b0c500f6d554ac396215245527c1212&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b39fa23-0175-4feb-aaf8-2009c1f09b5f?apiKey=9b0c500f6d554ac396215245527c1212&"class="sidebar-image" />
+  </div>
+</div>
+
+<style>
+  .main-container {
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .header {
+    align-self: center;
+    width: 100%;
+    max-width: 1333px;
+    margin: 136px 0 84px;
+  }
+
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      margin: 40px 0;
+    }
+  }
+
+  .header > * {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    color: var(--link, #008000);
+    white-space: nowrap;
+    font: 600 35px Kanit, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .title {
+      white-space: initial;
+    }
+  }
+
+  .subtitle {
+    color: #fff;
+    margin-top: 30px;
+    max-width: 754px;
+    font: 600 48px Kanit, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .subtitle {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+
+  .description {
+    color: #fff;
+    text-align: justify;
+    margin-top: 43px;
+    font: 400 25px Roboto, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .cta-container {
+    display: flex;
+    margin-top: 49px;
+    width: 618px;
+    max-width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .cta-container {
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+
+  .cta-button {
+    border-radius: 5px;
+    border: 1px solid #3ec70b;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: auto;
+    flex: 1;
+    padding: 31px 20px;
+  }
+
+  .cta-link {
+    color: #008000;
+    text-align: justify;
+    align-self: center;
+    white-space: nowrap;
+    font: 400 30px Roboto, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .cta-link {
+      white-space: initial;
+    }
+  }
+
+  .cta-images {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+    margin: auto 0;
+  }
+
+  @media (max-width: 991px) {
+    .cta-images {
+      justify-content: center;
+    }
+  }
+
+  .cta-image {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    fill: #fff;
+    overflow: hidden;
+    flex: 1;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 38%;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+
+  .sidebar-image {
+    aspect-ratio: 0.8;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+
+  @media (max-width: 991px) {
+    .sidebar-image {
+      max-width: 100%;
+    }
+  }
+</style>
+</body>
+</html>
